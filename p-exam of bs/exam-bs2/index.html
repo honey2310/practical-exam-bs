@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+    crossorigin="anonymous"
+  />
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"
+  ></script>
+</head>
+<body>
+    
+
+    
+     <!-- navbar -->
+   <div class="navbar navbar-expand-md bg-light navbar-light py-2 box">
+    <div class="container">
+      <a
+        href=""
+        class="navbar-brand fs-1"
+        style="font-weight: 100"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvas"
+        >LOGO..</a
+      >
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="offcanvas"
+        data-bs-target="#offcanvas"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse">
+        <ul class="navbar-nav w-100 d-flex justify-content-end">
+          <li class="nav-item">
+            <a href="index.html" class="nav-link text-success">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="about.html" class="nav-link text-dark">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="services.html" class="nav-link text-dark">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="plan.html" class="nav-link text-dark">Plan</a>
+          </li>
+          <li class="nav-item">
+            <a href="team.html" class="nav-link text-dark">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="blog.html" class="nav-link text-dark">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link text-dark dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Dropdown</a
+            >
+            <ul class="dropdown-menu">
+              <li><a href="" class="dropdown-item py-2">Dropdown 1</a></li>
+              <li>
+                <a href="" class="dropdown-item py-2">Deep Dropdown</a>
+              </li>
+              <li><a href="" class="dropdown-item py-2">Dropdown 2</a></li>
+              <li><a href="" class="dropdown-item py-2">Dropdown 3</a></li>
+              <li><a href="" class="dropdown-item py-2">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="contact.html" class="nav-link text-dark">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas">
+    <div class="offcanvas-header text-center">
+      <h5 class="offcanvas-title">Active</h5>
+      <button
+        type="button"
+        class="btn-close text-reset"
+        data-bs-dismiss="offcanvas"
+      ></button>
+    </div>
+    <div class="offcanvas-body">
+      <div class="dropdown mt-3">
+        <ul class="navbar-nav w-100 d-flex justify-content-end text-center">
+          <li class="nav-item">
+            <a href="" class="nav-link text-success">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">Plans</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">Team</a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">Blog</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a
+              href=""
+              class="nav-link text-dark dropdown-toggle"
+              data-bs-toggle="dropdown"
+              >Dropdown</a
+            >
+            <ul class="dropdown-menu">
+              <li><a href="" class="dropdown-item py-2">Dropdown 1</a></li>
+              <li>
+                <a href="" class="dropdown-item py-2">Deep Dropdown</a>
+              </li>
+              <li><a href="" class="dropdown-item py-2">Dropdown 2</a></li>
+              <li><a href="" class="dropdown-item py-2">Dropdown 3</a></li>
+              <li><a href="" class="dropdown-item py-2">Dropdown 4</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link text-dark">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- contact us -->
+  <div class="container-fluid" style="background-color: white; padding-top: 20px;">
+    <div class="container mt-5" style="color:white; height: 600px; background-color: white;" id="para5">
+     <h1 class="text-center" style="color: gray;">USER REGISTRATION</h1>
+
+     <form action="" style="height: 480px;">
+       <div class="w-100 d-flex justify-content-between">
+       <input type="text" placeholder="Your Name" class="form-control" style="width: 49%; margin-top: 20px;
+padding: 15px 17px;">
+       <input type="text" placeholder="Your Email" class="form-control" style="width:49%; margin-top: 20px;
+padding: 15px 17px;">
+       </div>
+       <div>
+         <input type="text" placeholder="Subject" class="form-control mt-4" style=" padding: 15px 17px;">
+         <input type="password" placeholder="Paasword" class="form-control mt-4" style=" padding: 15px 17px;">
+         <textarea id="" class="form-control a4 mt-4" rows="6" style="color: gray;"> Message</textarea>
+         <a href="" class="btn rounded-pill py-2 px-4 mb-5 mt-5 a2 border-dark" style="margin-left: 45%; color:black;">Send Message</a>
+       </div>
+     </form>
+   </div>
+     </div>
+</body>
+</html>
